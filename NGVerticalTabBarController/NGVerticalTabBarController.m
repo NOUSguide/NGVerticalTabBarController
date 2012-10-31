@@ -26,8 +26,6 @@
 
 // re-defined as read/write
 @property (nonatomic, strong, readwrite) NGVerticalTabBar *tabBar;
-/** the (computed) frame of the sub-viewcontrollers */
-@property (nonatomic, readonly) CGRect childViewControllerFrame;
 @property (nonatomic, assign) NSUInteger oldSelectedIndex;
 @property (nonatomic, readonly) BOOL containmentAPISupported;
 @property (nonatomic, readonly) UIViewAnimationOptions currentActiveAnimationOptions;
