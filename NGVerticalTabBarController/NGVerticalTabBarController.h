@@ -28,7 +28,7 @@
 /** The tableView used to display all tab bar elements */
 @property (nonatomic, strong, readonly) NGVerticalTabBar *tabBar;
 /** the (computed) frame of the sub-viewcontrollers */
-@property (nonatomic, readonly) CGRect childViewControllerFrame;
+@property (nonatomic, readwrite) CGRect childViewControllerFrame;
 /** The class of the tableViewCell of the tabBar, defaults to NGVerticalTabBarCell */
 @property (nonatomic, assign) Class tabBarCellClass;
 
