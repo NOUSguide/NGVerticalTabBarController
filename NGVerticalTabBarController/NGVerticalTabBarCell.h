@@ -10,7 +10,7 @@
 
 @interface NGVerticalTabBarCell : UITableViewCell
 
-+ (id)cellForTabBar:(NGVerticalTabBar *)tabBar;
++ (instancetype)cellForTabBar:(NGVerticalTabBar *)tabBar;
 
 
 @end

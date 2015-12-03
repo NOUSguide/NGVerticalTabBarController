@@ -41,6 +41,6 @@
 - (void)setViewControllers:(NSArray *)viewControllers animated:(BOOL)animated;
 
 /** The designated initializer. */
-- (id)initWithDelegate:(id<NGVerticalTabBarControllerDelegate>)delegate;
+- (instancetype)initWithDelegate:(id<NGVerticalTabBarControllerDelegate>)delegate;
 
 @end
