@@ -396,7 +396,7 @@
                                                                      newSelectedViewController.view.transform = CGAffineTransformMakeScale(1.f, 1.f);
                                                                  } completion:^(BOOL finished) {
                                                                      newSelectedViewController.view.frame = self.childViewControllerFrame;
-                                                                     _moveScaleAnimationActive = NO;
+                                                                     self->_moveScaleAnimationActive = NO;
                                                                      
                                                                      // call the delegate that we changed selection
                                                                      [self callDelegateDidSelectViewController:newSelectedViewController atIndex:self.selectedIndex];
